@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "wmcodecdsp.h": "c",
+        "combaseapi.h": "c",
+        "initguid.h": "c",
+        "mfapi.h": "c",
+        "mfidl.h": "c",
+        "mftransform.h": "c",
+        "mfobjects.h": "c"
+    }
+}
