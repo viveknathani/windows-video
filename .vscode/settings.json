@@ -6,6 +6,7 @@
         "mfapi.h": "c",
         "mfidl.h": "c",
         "mftransform.h": "c",
-        "mfobjects.h": "c"
+        "mfobjects.h": "c",
+        "stdlib.h": "c"
     }
 }
