@@ -1,4 +1,5 @@
 build:
-	clang main.c -o bin/main.exe -lole32 -lmfplat -lwmvcore -lmfuuid -lWs2_32
+	clang ffmpeg.c -o bin/ffmpeg.exe -ID:/ffmpeg/include -LD:/ffmpeg/lib -lavcodec -lavformat -lavutil -lswscale -lswresample -lavdevice -lavfilter
 run:
-	./bin/main.exe
+	./bin/ffmpeg.exe
+	
